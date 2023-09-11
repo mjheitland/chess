@@ -13,7 +13,7 @@ function initialTheme(): Theme {
 	if (theme && Object.keys(Themes).includes(theme)) {
 		return theme as Theme;
 	}
-	return 'pink';
+	return 'brown';
 }
 
 export const theme = writable<Theme>(initialTheme());
